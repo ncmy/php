@@ -1,0 +1,766 @@
+/* 以上为头部 */
+
+  a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+a:active{
+	color:#333;
+}
+a:visited{
+	color:#333;
+}  
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#__01 {
+	margin:0px auto;
+	width:1261px;
+	position: relative;
+	overflow: visible;
+	height: 100%;
+
+}
+
+#id2015-11-03-222139-14_ {
+	position:relative;
+	width:135px;
+	height:1000px;
+	float: left;
+}
+
+#id2015-11-03-222139-15_ {
+	position:relative;
+	width:990px;
+	height:41px;
+	float: left;
+	line-height: 41px;
+}
+
+
+#id2015-11-03-222139-17_ {
+	position:relative;
+	width:136px;
+	height:1000px;
+	float: right;
+}
+
+#id2015-11-03-222139-18_ {
+	position:relative;
+	width:208px;
+	height:129px;
+	float: left;
+}
+/* 商店的信息父元素 */
+#detail_shop_info{
+	position:relative;
+	width:267px;
+	height:129px;
+	float: left;
+	background: #FAFAFA;
+}
+/*  .id2015-11-03-222139-19_ {
+	position:relative;
+	width:266px;
+	height:128px;
+	float: left;
+	background: #FAFAFA;
+	border:1px solid #FAFAFA;
+
+} 
+.id2015-11-03-222139-19_ .content{
+	padding-left: 20px;
+	font-size: 12px;
+	background:  #FFFFFF;
+	width: 250px;
+	height:240px;
+	color:#999;
+}
+ .id2015-11-03-222139-19_ .content>h3{
+ 	color:#333333;
+ }
+ .id2015-11-03-222139-19_ .content>section{
+ 	width: 63px;
+ 	height: 63px;
+ 	font-size: 45px;
+ 	color: #FF2D4B;
+ 	font-weight: bold;
+ }
+ .id2015-11-03-222139-19_ .content ul{
+ 	list-style: none;
+ 	padding: 0px;
+ 	margin: 0px;
+ 	margin-left: 70px;
+ }
+商铺的信息
+.id2015-11-03-222139-19_active {
+	position:absolute;
+	width:267px;
+	width:270px;
+	height:370px;
+	top:0px;
+	left: 0px;
+	background: #FFFFFF;
+	z-index: 999;
+	border:1px solid #E2E2E2;
+} 
+
+.id2015-11-03-222139-19_>p{
+	font-size: 12px;
+	color:#999;
+	font-family: "Microsoft Yahei UI","Microsoft YaHei";
+	margin:10px 0px;
+	margin-left: 15px;
+}
+.id2015-11-03-222139-19_ p:nth-child(1){
+	font-size: 20px;
+	color:#323440;
+	font-family: "Microsoft Yahei UI","Microsoft YaHei";
+	font-weight: bold;
+	margin-top:20px;
+}
+.id2015-11-03-222139-19_ p:nth-child(3){
+	padding-left:20px;
+	background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) no-repeat -15px 2px;
+	line-height: 16px;
+
+}
+.id2015-11-03-222139-19_ p:nth-child(4){
+	padding-left:20px;
+	background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) no-repeat -15px -48px;
+	line-height: 16px;
+
+} */
+#id2015-11-03-222139-20_ {
+	position:relative;
+	width:199px;
+	height:129px;
+	float: left;
+	background: #FAFAFA;
+
+}
+
+#id2015-11-03-222139-21_ {
+	position:relative;
+	width:316px;
+	height:129px;
+	float: left;
+	background: #FAFAFA;
+}
+#id2015-11-03-222139-21_  .left{
+	width: 100px;
+	height: 70px;
+	float: left;
+	margin-top: 30px;
+}
+#id2015-11-03-222139-21_ >#left:nth-child(1){
+
+}
+
+.id2015-11-03-222139-22_ {
+	position:relative;
+	float: left;
+	width:120px;
+	height:63px;
+	line-height: 63px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+
+}
+#id2015-11-03-222139-22_ >span{
+
+}
+#id2015-11-03-222139-23_ {
+	position:relative;
+	float: left;
+	width:120px;
+	height:63px;
+	line-height: 63px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+
+}
+
+#id2015-11-03-222139-24_ {
+	position:relative;
+	float: left;
+	width:466px;
+	height:63px;
+	border-bottom: 1px solid #ccc;
+}
+
+#id2015-11-03-222139-25_ {
+	position:relative;
+	float: left;
+	width:284px;
+	height:63px;
+}
+#id2015-11-03-222139-25_ >div{
+	width: 268px;
+	height: 45px;
+	border:1px solid #C6C6C6;
+	margin-top:15px;
+	margin-left:10px;
+	background: #F9F9F9;
+	line-height: 45px;
+}
+#id2015-11-03-222139-25_ >div>#fa{
+	float: left;
+	margin-left: 80px;
+	margin-top: 14px;
+	margin-right: 5px;
+	display: block;
+	width:18px;
+	height: 16px;
+	background: url(/waimai/public/home/index/images/detail/favorite_c335607.png);
+}
+#id2015-11-03-222139-25_ >div>span{
+	cursor: pointer;
+	font-size: 14px;
+	color: #333;
+}
+#id2015-11-03-222139-26_ {
+	position:relative;
+	float: left;
+	width:990px;
+	height:15px;
+}
+
+/* 菜单 */
+ #id2015-11-03-222139-27_ {
+	position:relative;
+	float: left;
+	width:706px;
+	height:90px;
+	color: #333;
+	z-index: 800;
+	box-shadow: 2px 2px 5px #ccc,-2px 2px 5px #ccc;
+	background: #FAFAFA;
+} 
+
+  #id2015-11-03-222139-27_ li{
+	list-style: none;
+	width: 105px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+	background: #FAFAFA;
+	z-index: 999;
+}  
+
+	/* active 设置滚动的时候的红色属性 */
+	#id2015-11-03-222139-27_ .active{
+		background:#FF2D4B;
+	}
+
+/* 商品促销 */
+#id2015-11-03-222139-28_ {
+	position:relative;
+	float: left;
+	width:284px;
+	height:99px;
+}
+
+.id2015-11-03-222139-29_ {
+	position:relative;
+	float: left;
+	width:706px;
+	height:49px;
+	background: white;
+	line-height: 49px;
+	overflow: hidden;
+
+}
+.id2015-11-03-222139-29_ >a{
+	font-weight: bold;font-size: 20px;color:#323440;
+}
+#id2015-11-03-222139-30_ {
+	position:relative;
+	float: left;
+	width:576px;
+	height:49px;
+}
+
+#id2015-11-03-222139-31_ {
+	position:relative;
+	float: right;
+	width:284px;
+	text-align: left;
+	background: #FAFAFA;
+	margin-bottom: 10px;
+}
+#id2015-11-03-222139-31_ >strong{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 20px;
+	font-size: 20px;
+	color:#323440;
+	width: 250px;
+	display: block;
+}
+#id2015-11-03-222139-31_ >div{
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 250px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	color:#333;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+.id2015-11-03-222139-32_ {
+	position:relative;
+	float: left;
+	width:350px;
+	height:133px;
+	background: #FAFAFA;
+	overflow: hidden;
+}
+.id2015-11-03-222139-32_>img{
+	float: left;
+}
+.id2015-11-03-222139-32_  p:nth-of-type(1){
+	float: left;width: 210px;padding-left: 15px;font-size: 14px;margin:10px 0px;
+}
+.id2015-11-03-222139-32_  p:nth-of-type(2){
+	float:left;width:80px;margin:5px 0px;padding-left: 15px;font-size: 12px;color:#999;
+}
+.id2015-11-03-222139-32_  p:nth-of-type(3){
+	float:left;width:80px;margin:5px 0px;padding-left: 15px;font-size: 12px;border-left:1px solid #ccc;color:#999;
+}
+/* 价格 */
+.id2015-11-03-222139-32_  p:nth-of-type(4){
+	float:left;margin-top: 34px;width:60px;padding-left: 15px;font-weight: bold;font-size: 14px;background: url(/waimai/public/home/index/images/detail/good_price_icon.png) no-repeat 2px 2px;
+}
+/* 减号 */
+.id2015-11-03-222139-32_  strong:nth-of-type(1){
+	float:left;margin-top: 30px;width:28px;height:28px;background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) -4px -108px;cursor:pointer;
+}
+/* 加号 */
+.id2015-11-03-222139-32_  strong:nth-of-type(3){
+	float:right;margin-top: 30px;margin-right:55px;width:28px;height:28px;background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) -4px -72px;cursor: pointer;
+}
+/* 中间的数字 */
+.id2015-11-03-222139-32_  strong:nth-of-type(2){
+	 margin-top: 37px;margin-left:12px;width:28px;height:28px;float: left; font-size: 12px;color:red;
+}
+#id2015-11-03-222139-33_ {
+	position:relative;
+	float: left;
+	width:356px;
+	height:133px;
+}
+
+#id2015-11-03-222139-34_ {
+	position:relative;
+	float: left;
+	width:350px;
+	height:133px;
+}
+
+#id2015-11-03-222139-35_ {
+	position:relative;
+	float: left;
+	width:356px;
+	height:133px;
+}
+/* 百度地图样式 */
+#allmap {
+	position:relative;
+	float: right;
+	width:284px;
+	height:280px;
+}
+
+#id2015-11-03-222139-37_ {
+	position:relative;
+	float: left;
+	width:350px;
+	height:142px;
+}
+
+#id2015-11-03-222139-38_ {
+	position:relative;
+	float: left;
+	width:356px;
+	height:142px;
+}
+
+
+/* 减了５１ */
+
+
+#id2015-11-03-222139-41_ {
+	position:absolute;
+	left:841px;
+	top:890px;
+	width:284px;
+	height:45px;
+}
+
+#id2015-11-03-222139-42_ {
+	position:relative;
+	float: right;
+
+	width:284px;
+}
+#detail_cart{
+	width:282px;
+	height:42px;
+	background: #3F4347;
+	position: fixed;
+	bottom: 0px;
+	right: 130px;
+	z-index: 999;/* 不加这一句会出现到底部消失的情况 */
+	display: none;
+
+}
+#id2015-11-03-222139-62_ {
+	position:relative;
+	width:100%;
+	height:188px;
+	float: left;
+	text-align: center;
+	background: #FAFAFA;
+	margin-left: -137px;
+}
+
+.J-shoping{
+	width:282px;
+	height:42px;
+	background: #3F4347; 
+	position: fixed;
+	bottom: 0px;
+	right: 130px;
+	z-index: 800;/* 不加这一句会出现到底部消失的情况 */
+	background: #3F4347;
+/* 	border:1px solid red; */
+
+}
+/* 购物车容器 */
+.J-shoping-body{
+	width:282px;
+	max-height: 400px;
+	min-height: 80px;
+	background: white;
+/* 	position: absolute;
+bottom: 42px; */
+	z-index: 420;
+	overflow-x:hidden;
+ 	/* box-shadow: -2px -2px 1px #F2F2F2,2px -2px 1px #F2F2F2 ;   */
+}
+/* 容器不要加高度这样可以自适应 */
+#shopping-container{
+	width:282px;
+/* 	height:70px;
+max-height: 470px;
+min-height: 160px; */
+	background: white;
+	position: absolute;
+	bottom: 42px;
+	z-index: 400;
+	 box-shadow: -2px -2px 1px #F2F2F2,2px -2px 1px #F2F2F2 ; 
+}
+/* 购物车底部 */
+.J-shoping-title{
+	width:282px;
+	height:42px;
+	line-height: 42px;
+	text-align: center;
+	z-index: 800;/* 不加这一句会出现到底部消失的情况 */
+	background: url(/waimai/public/home/index/images/detail/cart_icon.png) no-repeat 10px 10px;
+	/* box-shadow: 1px 1px 2px #F2F2F2,-1px 1px 2px #F2F2F2; */
+}
+.J-shoping-title>a{
+	display: block;
+	width: 182px;
+	height: 42px;
+	float: left;
+	color:#FFFFFF;
+	float:right;
+	font-size: 15px;
+	line-height: 42px;
+}
+/* 购物车底部的选好了 */
+.J-shoping-title>.J-shoping-num{
+	float:right;
+	display: block;
+	width:100px;
+	height: 42px;
+	font-size: 15px;
+	line-height: 42px;
+	color:#FFFFFF;
+	background: #FF2D4B;
+	cursor:pointer;
+}
+#floatOrder{
+	width:122px;
+	height:122px;
+	background: transparent;
+	overflow:hidden;
+	position:absolute;
+	z-index:999;
+}
+.shoping-menu{
+	width: 282px;
+	height: 70px;
+	background: #FAFAFA;
+
+	z-index: 999;
+
+}
+.shoping-menu span{
+
+
+	display: block;
+	
+}
+/* 购物车 */
+.shoping-menu span:nth-child(1){
+	width:170px;
+	float: left;
+	color: #999999;
+	line-height: 40px;
+	padding-left: 20px;
+	height: 40px;
+}
+/* 清空 */
+.shoping-menu span:nth-child(2){
+	width: 50px;
+	float: right;
+	text-align: right;
+	background: url(/waimai/public/home/index/images/detail/del_cart.png) no-repeat 20px 12px;
+	margin-right: 10px;
+	color:#999999;
+	line-height: 40px;
+	padding-left: 20px;
+	height: 40px;
+	cursor:pointer;
+}
+/* 菜品 */
+.shoping-menu span:nth-child(3){
+	float: left;
+	font-size: 12px;
+	color:#999999;
+	line-height: 29px;
+	height: 29px;
+	background: #FFFFFF;
+	text-align: left;
+	padding-left: 20px;
+	width: 95px;
+	border-bottom: 1px solid #DDDDDD;
+
+}
+/* 份数 */
+.shoping-menu span:nth-child(4){
+	float: left;
+	font-size: 12px;
+	color:#999999;
+	line-height: 29px;
+	height: 29px;
+	background: #FFFFFF;
+	text-align: center;
+	width: 97px;
+	border-bottom: 1px solid #DDDDDD;
+
+}
+/* 单价 */
+.shoping-menu span:nth-child(5){
+	float: left;
+	font-size: 12px;
+	color:#999999;
+	line-height: 29px;
+	height: 29px;
+	background: #FFFFFF;
+	text-align: left;
+	width: 70px;
+	border-bottom: 1px solid #DDDDDD;
+}
+/* 购物车单一商品 */
+
+.J-shoping-list{
+	width: 280px;
+	height: 40px;
+	cursor: pointer;
+}
+/* 购物车里的关闭按钮 */
+.J-shoping-close{
+	width:10px;height: 10px;cursor: pointer;
+}
+/* 商品单项里面的菜名 */
+.J-shoping-list a{
+	line-height:40px;
+	height: 40px;
+	width: 115px;
+	float: left;
+	padding-left: 20px;
+	font-size: 12px;
+}
+/* 商品单项里面的加减父容器 */
+.J-shoping-list .J-shoping-list-a{
+	line-height:40px;
+	height: 40px;
+	width: 70px;
+	float: left;
+}
+/* 减一 */
+.J-shoping-list .J-shoping-list-a .del{
+	width:20px;
+	height: 20px;
+	text-align: center;
+	cursor: pointer;
+	background: url(/waimai/public/home/index/images/detail/cart_item_del.png) no-repeat 1px 0px; 
+	/* background: red; */
+	display: block;
+	float: left;
+	margin-top: 10px;
+	z-index: 999;
+}
+/* 数字 */
+.J-shoping-list .J-shoping-list-a .num{
+	width:20px;
+	height: 20px;
+	text-align: center;
+	outline: none;
+	border:none;
+	float: left;
+	margin-top: 10px;
+	color:#333;
+	font-size: 12px;
+	z-index: 999;
+
+}
+/* 加一 */
+.J-shoping-list .J-shoping-list-a .add{
+	width:20px;
+	text-align: center;
+	height: 20px;
+	cursor: pointer;
+	background: url(/waimai/public/home/index/images/detail/cart_item_add.png) no-repeat 1px 0px; 
+/* 	background: red; */
+	display: block;
+	float: left;
+	margin-top: 10px;
+	z-index: 999;
+}
+/* 商品单项里面的删除图标 */
+.J-shoping-list .J-shoping-close{
+	line-height:40px;
+	height: 40px;
+	width: 30px;
+	float: left;
+	background: url(/waimai/public/home/index/images/detail/cart_item_del_icon.png) no-repeat 0px 15px;
+	cursor: pointer;
+}
+/* 商品单项里面的价格 */
+.J-shoping-list .price{
+	line-height:40px;
+	height: 40px;
+	width: 40px;
+	float: left;
+	text-align: center;
+	color:#333;
+	font-size: 12px;
+	cursor: pointer;
+	background: url(/waimai/public/home/index/images/detail/cart_price_icon.png) no-repeat 0px 15px;
+}
+
+/* 
+
+ 评分CSS */
+ .id2015-11-03-222139-19_ {
+	position:relative;
+	width:266px;
+	height:128px;
+	float: left;
+	background: #FAFAFA;
+	border:1px solid #FAFAFA;
+
+} 
+ .id2015-11-03-222139-19_ .content{
+ 	margin-top: 20px;
+ 	padding-left: 20px;
+ 	font-size: 12px;
+ 	background:  #FFFFFF;
+ 	width: 250px;
+ 	height:197px;
+ 	color:#999;
+ }
+  .id2015-11-03-222139-19_ .content>h3{
+  	color:#333333;
+  }
+  .id2015-11-03-222139-19_ .content>section{
+  	width: 63px;
+  	height: 63px;
+  	font-size: 45px;
+  	color: #FF2D4B;
+  	font-weight: bold;
+  }
+  .id2015-11-03-222139-19_ .content ul{
+  	list-style: none;
+  	padding: 0px;
+  	margin: 0px;
+  	margin-left: 8px;
+  	float: left;
+  	margin-top: 12px;
+  }
+    .id2015-11-03-222139-19_ .content ul li{
+    	font-size: 16px;
+    }
+/* 商铺的信息 */
+ .id2015-11-03-222139-19_active {
+	position:absolute;
+	/* width:267px; */
+	width:270px;
+	height:340px;
+	top:0px;
+	left: 0px;
+	background: #FFFFFF;
+	z-index: 999;
+	border:1px solid #E2E2E2;
+} 
+
+.id2015-11-03-222139-19_>p{
+	font-size: 12px;
+	color:#999;
+	font-family: "Microsoft Yahei UI","Microsoft YaHei";
+	margin:10px 0px;
+	margin-left: 15px;
+}
+.id2015-11-03-222139-19_ p:nth-child(1){
+	font-size: 20px;
+	color:#323440;
+	font-family: "Microsoft Yahei UI","Microsoft YaHei";
+	font-weight: bold;
+	margin-top:20px;
+}
+.id2015-11-03-222139-19_ p:nth-child(3){
+	padding-left:20px;
+	background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) no-repeat -15px 2px;
+	line-height: 16px;
+
+}
+.id2015-11-03-222139-19_ p:nth-child(4){
+	padding-left:20px;
+	background: url(/waimai/public/home/index/images/detail/common_z_ee375f9.png) no-repeat -15px -48px;
+	line-height: 16px;
+
+}
+.score_5{
+	float: left;
+}
+.hind_2{
+	float: left;
+}
+.comment_hint2{
+	float: left;
+	height: 47px;
+	width: 80px;
+	font-size: 45px;
+	color:#FF2D4B;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/PIE_IE678.js"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.admin.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/font/font-awesome.min.css"/>
+<!--[if IE 7]>
+<link href="font/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>商品品类管理</title>
+<style>
+
+
+</style>
+</head>
+<body>
+<div class="pd-20">
+    <form class="Huiform" action="return false;" method="post" id="cateditform">
+        <table style="width:280px;margin:0 auto">
+        <tr>
+            <td>商品品类:</td>
+            <td>
+                <input type="hidden" name="id" value="{$edit.id}">
+                <input class="input-text text-c" style="width:100px" type="text" name="name" id="class-rank" value="{$edit.cat_name}">
+            </td>
+            <td>
+                <button type="button" class="btn btn-success" id="catedit_button" name="" > <i class="icon-save"></i>
+                保存
+                </button>
+            </td>
+        </tr>
+        
+        </table>
+    </form>
+</div>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/Validform_v5.3.2_min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/layer/layer.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.admin.js"></script>
+
+</body>
+</html>
+<!--代码整理：js代码 www.jsdaima.com-->
+<script>
+
+    var index = parent.layer.getFrameIndex(window.name);
+    $('#catedit_button').click(function(){
+    var form=$('#cateditform').serialize();
+    // alert(form);
+    $.ajax({
+        type: "POST",
+        url: "__URL__/catUpdate",
+        data:form,
+        success: function(msg){
+            // alert(msg);
+            parent.window.location.reload();
+            parent.layer.msg('更新成功');
+            parent.layer.close(index);
+        },
+        error:function(msg){
+            parent.layer.msg('更新失败!!!',1);
+        }
+        
+        });
+    
+    });
+
+</script>

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/PIE_IE678.js"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.admin.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/font/font-awesome.min.css"/>
+<!--[if IE 7]>
+<link href="font/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>公告管理</title>
+</head>
+<body>
+<nav class="Hui-breadcrumb"> <i class="icon-home"></i>
+  首页
+  <span class="c-gray en">&gt;</span>
+  常用操作
+  <span class="c-gray en">&gt;</span>
+  公告管理
+  <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="icon-refresh"></i></a>
+</nav>
+<div style="width:600px;margin:0 auto;">
+  <form action="">
+    <table style="margin-top:20px;" class="table table-border table-bordered table-hover table-bg table-sort">
+      <thead>
+        <tr class="text-c">
+          <th style="width:440px;">公告</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+
+  <tr>
+    <td style="margin:0;padding:1;">
+      <textarea name="announcement" style="width:460px;height:140px;resize:none;text-indent:20px;">{$announcement.announcement}</textarea>
+    </td>
+    <td style="text-align:center;">
+      <a title="编辑公告" href="javascript:;" onClick="user_edit('{$announcement.id}','468','320','编辑公告','__URL__/announcementEdit')" class="ml-5" style="text-decoration:none"> <i class="icon-edit"></i>
+      </a>
+<!-- 
+      <a title="删除" href="javascript:;" onClick="user_del(this,'{$vo.id}')" class="ml-5" style="text-decoration:none">
+        <i class="icon-trash"></i>
+      </a> -->
+    </td>
+  </tr>
+
+</tbody>
+
+    </table>
+  </form>
+</div>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/layer/layer.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/pagenav.cn.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/plugin/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.admin.js"></script>
+<script type="text/javascript">
+  function user_del(obj,id){
+    layer.confirm('确定要删除吗?',function(index){
+      $.ajax({
+        type:"post",
+        url:"__URL__/announcementDel",
+        data:{id:id},
+        success:function(msg){
+          // alert(msg);
+          if(msg){
+            layer.msg('已删除',1);
+            window.location.reload()
+          }
+        },
+      });
+    });
+  }
+</script>
+
+</body>
+</html>

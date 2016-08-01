@@ -1,0 +1,224 @@
+div.order-detail005_ {
+	width:606px;
+/* 	height: 300px; */
+	/* min-height: 200px; */
+/* 	max-height: 260px; */
+/* 	overflow-y: hidden; */
+/* 	 height: 214px;  */
+	/*  overflow: hidden;  */
+	float: left;
+	background: #FAFAFA;
+	position: relative;
+ 	padding-bottom: 80px; 
+}
+
+div.order-detail005_ >.top{
+	width:580px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	margin-top: 25px;
+	padding-left: 20px;
+	float: left;
+}
+div.order-detail005_ >.top span{
+	line-height: 30px;
+	display: block;
+	float: left;
+
+}
+div.order-detail005_ >.top span:nth-child(2){
+	float: right;
+	margin-right: 20px;
+	padding-left: 25px;
+	background: url(/waimai/public/home/order/images/add.png) no-repeat 0px 5px;
+	cursor: pointer;
+
+}
+div.order-detail005_>.address{
+	width: 274px;
+	height: 139px;
+
+  	background: white; 
+	border:1px solid #E4E4E4;  
+	display: inline-block;/* 这一步不能是float:left; */
+	margin-left: 10px;
+	margin-top: 40px;
+	position: relative;
+}
+div.order-detail005_>.address span{
+	display: block;
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	color:#FF2D4B;
+	cursor: pointer;
+
+}
+div.order-detail005_ .address_active{
+	border:none;
+	background:url(/waimai/public/home/order/images/background.png) no-repeat;
+
+}
+div.order-detail005_ .address_source{
+	background:white;
+	border:1px solid #E4E4E4;
+}
+
+div.order-detail005_>.address>.name{
+	height: 45px;
+	width: 220px;
+	line-height: 45px;
+	float: left;
+	border-bottom: 1px solid #E7E7E7;
+	font-size: 14px;
+	color:#333333;
+	margin-left: 20px;
+	z-index: 990;
+}
+div.order-detail005_>.address>p{
+	padding: 0px;
+	margin:0px;
+/* 	height: 25px; */
+	width: 220px;
+	line-height: 25px;
+	float: left;
+	font-size: 14px;
+	color:#333333;
+	margin-left: 20px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+div.order-detail005_>.address>p:nth-of-type(1){
+	margin-top: 10px;
+}
+div.order-detail005_>.btn{
+	width: 580px;
+	height: 80px;
+	border-top: 1px solid #E4E4E4;
+ 	position: absolute;
+	bottom: 0px; 
+	margin-left: 10px;
+	cursor: pointer;
+	background:#FAFAFA;
+}
+div.order-detail005_>.btn>span{
+	height: 30px;
+	width: 120px;
+	border: 1px solid #E4E4E4;
+	border-top: none;
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left: 20px;
+	margin-left: 196px;
+	margin-top: -1px;
+	z-index: 30px;
+	background: #FAFAFA;
+
+
+}
+
+
+/* 我的收藏CSS */
+
+.l_listsbox{
+	cursor: pointer;
+	width: 226px;
+	height: 264px;
+	/*border: 5px solid red;*/
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: #FAFAFA;
+	margin-right: 24px;
+}
+
+.list_box_right{
+	margin-right: 0px;
+}
+
+
+.l_listsimg{
+	width: 228px;
+	height: 140px;
+	text-align: center;
+}
+
+.l_listsname{
+	width: 228px;
+	height: 30px;
+	color: #333333;
+}
+.l_listsname_title{
+	height: 28px;
+	line-height: 28px;
+	color: #333333;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.l_listssell{
+	width: 228px;
+	height: 26px;
+	color: #333333;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.l_listscomment{
+	padding: 4px;
+	width: 100px;
+	height: 18px;
+	font-size: 12px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+}
+
+.l_listssellnum{
+	padding: 4px;
+	width: 100px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	float: right;
+	color: #333333;
+	padding-left: 10px;
+}
+
+	
+.l_listsdistance{
+	width: 228px;
+	height: 25px;
+	font-size: 12px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+}
+
+.l_listspay{
+	width: 228px;
+	height: 25px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+
+}
+
+.cancelcollect{
+	position: absolute;
+	left: 136px;
+	top:5px;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	background: #FF2D4B;
+	text-align: center;
+	color:white;
+	font-size: 14px;
+	z-index: 999;
+}

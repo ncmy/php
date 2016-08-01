@@ -1,0 +1,28 @@
+[ 2016-07-26T16:13:53+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:13:55+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:14:14+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:15:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:15:07+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:15:08+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:15:35+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:16:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+ERR: 无法加载控制器:Index
+
+[ 2016-07-26T16:16:22+08:00 ] 127.0.0.1 /index.php/Home/List/index
+ERR: 1146:Table 'tp_waimai.waimai_addresses' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `waimai_addresses`
+

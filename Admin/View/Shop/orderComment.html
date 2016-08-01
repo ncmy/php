@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/respond.min.js"></script>
+<script type="text/javascript" src="js/PIE_IE678.js"></script>
+<![endif]-->
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/css/H-ui.admin.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/admin/font/font-awesome.min.css"/>
+<!--[if IE 7]>
+<link href="font/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<title>添加用户_js代码</title>
+</head>
+<body>
+<div class="pd-20">
+  <div class="Huiform">
+    <form action="" method="post"  id="form">
+      <table class="table table-bg">
+      <if condition="!empty($comment['reply'])">
+        <tbody>
+          <tr>
+            <th width="100" class="text-r"><span class="c-red"></span> 评论用户</th>
+            <td><!-- <input type="text" style="width:200px" class="input-text" value="" placeholder="" id="user-name" name="user-name" datatype="*2-16" nullmsg="用户名不能为空"> -->{$comment.user.consignee}&nbsp; &nbsp;评分：{$comment.score}
+              <span style="float: right;display: block;">时间：{$comment.time|date='Y-m-d H:i:s',###}</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="text-r">内容：</th>
+            <td>{$comment.content}</td>
+          </tr>
+
+          <tr>
+            <th width="100" class="text-r"><span class="c-red"></span> 本店回复</th>
+            <td><!-- <input type="text" style="width:200px" class="input-text" value="" placeholder="" id="user-name" name="user-name" datatype="*2-16" nullmsg="用户名不能为空"> -->
+              <span style="margin-left: 125px;">时间：{$comment.reply.time|date='Y-m-d H:i:s',###}</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="text-r">内容：</th>
+            <td>{$comment.reply.content}</td>
+          </tr>
+
+
+
+        </tbody>
+
+
+      <else/>
+
+        <tbody>
+          <tr>
+            <th width="100" class="text-r"><span class="c-red"></span> 评论用户</th>
+            <td><!-- <input type="text" style="width:200px" class="input-text" value="" placeholder="" id="user-name" name="user-name" datatype="*2-16" nullmsg="用户名不能为空"> -->{$comment.user.consignee}  &nbsp; &nbsp;评分：{$comment.score}
+              <span style="margin-left: 50px;">时间：{$comment.time|date='Y-m-d H:i:s',###}</span>
+            
+            </td>
+          </tr>
+          <tr>
+            <th class="text-r">内容：</th>
+            <td>{$comment.content}</td>
+          </tr>
+
+
+          <tr id="reply_tr">
+            <th></th>
+            <td><button class="btn btn-success radius" type="button" id="reply_btn"><i class="icon-ok"></i> 回复</button></td>
+          </tr>
+        <div id="reply_content">
+           <tr  class="reply_tr">
+            <th class="text-r">回复：</th>
+            <td>
+            </td>
+          </tr>
+     
+          <input type="hidden" name="order_id" value={$comment.order_id}>
+            <input type="hidden" name="id" value={$comment.id}>
+            <tr class="reply_tr">
+            <td style="" colspan="2">
+              <textarea name="content" id="" cols="80" rows="10" style="margin-left: 61px;">欢迎下次光临</textarea>
+            </td>
+          </tr>
+          <tr class="reply_tr" >
+          <th></th>
+            <td><button class="btn btn-success radius" type="button"  id="confirm"><i class="icon-ok"></i>确定</button></td>
+          </tr>
+
+    </div>
+        </tbody>
+
+      </if>
+        
+
+      </table>
+    </form>
+  </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/admin/js/jquery.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/admin/js/Validform_v5.3.2_min.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.js"></script> 
+<script type="text/javascript" src="__PUBLIC__/admin/js/H-ui.admin.js"></script> 
+<script type="text/javascript">
+$(function(){
+  $('.reply_tr').hide();
+
+  $('#reply_btn').click(function(){
+    $(this).hide();
+    $('.reply_tr').show();
+  });
+
+
+//回复评论操作
+var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+  $('#confirm').click(function(){
+    var form=$('#form').serialize() ;
+      $.ajax({
+        url:'__MODULE__/Shop/orderCommentReply',
+        datatype:'json',
+        data:form,
+        success:function(data){
+          if(data){
+            parent.window.location.reload();
+            parent.layer.msg('回复成功',{icon: 6});
+            parent.layer.close(index);
+          }else{
+            layer.alert('出错了');
+          }
+        },
+        error:function(){
+            alert('出错了');
+        }
+      });
+  });
+
+
+});
+</script>
+
+</body>
+</html>
+
+<!--代码整理：js代码 www.jsdaima.com-->

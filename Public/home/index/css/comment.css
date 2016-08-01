@@ -1,0 +1,189 @@
+.comment_active{
+	color: #FF2D4B;
+	border-bottom: 2px solid #FF2D4B;
+	width: 120px;
+}
+.comment_line{
+	height: 63px;
+	width: 656px;
+	border-bottom: 2px solid #E4E4E4;
+	float: left;
+}
+.comment_right{
+	width:300px;
+	height:300px;
+	float: right;
+
+}
+.comment_right>.top{
+	height: 63px;
+	width:280px;
+	line-height: 63px;
+	padding: 0px;
+	margin:0px;
+	padding-left: 10px;
+	border-bottom: 1px solid #E4E4E4;
+	float: left;
+}
+
+.comment_right>.middle{
+	height: 63px;
+	width: 300px;
+	float: right;
+}
+.comment_right>.middle>.content_left{
+	height: 63px;
+	width:63px;
+	float: left;
+	font-size: 45px;
+	color: #FF2D4B;
+	padding-left: 10px;
+}
+/* 评分 */
+.comment_right>.middle>#raty_score{
+	width: 200px;
+	float: left;
+	padding:0px;
+	margin:0px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 25px;
+	color: #FF2D4B;
+}
+.comment_right>.middle>#raty_score img{
+	width:13px;
+	height: 13px;
+}
+.comment_right>.middle>.content_bottom{
+	width: 200px;
+	float: right;
+	padding:0px;
+	margin:0px;
+	height: 31px;
+	padding-left: 10px;
+	color:#999;
+	font-size: 12px;
+}
+.comment_right>.bottom{
+	width: 293px;
+	height: 170px;
+	float: left;
+	padding-left: 7px;
+
+}
+.comment_right>.bottom>ul{
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+}
+.comment_right>.bottom>ul>li{
+	list-style: none;
+	padding: 0px;
+	margin:5px 0px;
+	padding-left: 10px;
+}
+
+.comment_father{
+	width:656px;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.comment_left{
+	width:656px;
+	height:71px;
+	float: left;
+	position: relative;
+	padding: 5px 0px;
+	border-bottom:1px solid #E4E4E4;
+/* 	border-left: 1px solid #E4E4E4; */
+
+}
+.comment_left>.top{
+	width: 656px;
+	height: 17px;
+	font-size: 12px;
+	color:#999;
+	float: left;
+
+}
+.comment_head_left{
+	float: left;
+	height: 17px;
+	font-size: 12px;
+	color:#999;
+	width: 400px;
+	padding-left: 5px;
+}
+.comment_head_right{
+	float: right;
+	height: 17px;
+	font-size: 12px;
+	color:#999;
+	width: 200px;
+
+}
+.comment_left>.content{
+	width: 600px;
+	font-size: 12px;
+	color:#999;
+	padding-left: 5px;
+}
+/* 用户评论的内容 */
+
+.comment_left>.middle{
+	width: 600px;
+	font-size: 14px;
+	height: 30px;
+	float: left;
+	padding:5px 5px;
+	line-height: 30px;
+}
+.comment_left>.middle>p{
+	padding: 0px;
+	margin:0px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: center;
+
+
+	
+}
+.comment_left>.middle img{
+	width: 25px;
+	height: 25px;
+}
+.content>.recommend{
+	display: inline-block;
+	padding:0px 3px;
+	background: #F7F7F7;
+	margin-left: 5px;
+
+}
+
+/* 商家回复 */
+.shop_replay{
+	width: 600px;
+	float: right;
+	border-left: 1px solid #E4E4E4;
+}
+.shop_replay>.comment_head_right{
+	
+
+}
+
+
+/* 评分的CSS */
+.score_5{
+	float: left;
+}
+.hind_2{
+	float: left;
+}
+.comment_hint2{
+	float: left;
+	height: 47px;
+	width: 80px;
+	font-size: 45px;
+	color:#FF2D4B;
+}

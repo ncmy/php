@@ -1,0 +1,63 @@
+.info{
+	margin: 0 auto;
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+.shopinfo{
+	width: 450px;
+	height: 400px;
+	position: absolute;
+}
+.log{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 450px;
+	top: 10px;
+	
+}
+.logimg{
+	width: 300px;
+	height: 170px;
+	border: 1px solid #ddd;
+	margin: auto;
+}
+.loginfo{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.shopdesc{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 450px;
+	top: 220px
+}
+.shopdesctext{
+	width: 300px;
+	height: 120px;
+	
+}
+.shopdescname{
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.shopadd{
+	width: 300px;
+	height: 120px;
+	position: absolute;
+	left: 450px;
+	top: 420px
+}
+.shopadd span{
+	display: block;
+	height: 30px;
+	width: 300px;
+	line-height: 30px;
+}

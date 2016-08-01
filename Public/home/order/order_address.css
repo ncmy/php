@@ -1,0 +1,164 @@
+.middle{
+	width:560px;
+	height:400px;
+	position:absolute;
+
+}
+.m-1{
+	width:520px;
+	height:50px;
+	margin-left:20px;
+	color:red;
+	margin-top:25px;
+}
+.m-1-2{
+	width:80px;
+	height:49px;
+	line-height:49px;
+	float:left;
+	color:black;
+}
+.m-1-3{
+	width:420px;
+	height:49px;
+	border:1px solid #E4E4E4;
+	font-size:15px;
+	color:black;
+	letter-spacing:1px;
+	padding-left: 30px;
+}
+.m-2{
+	width:520px;
+	height:50px;
+}
+.m-2-1{
+	width:300px;
+	height:25px;
+	margin-left:100px;
+	margin-top:;
+	padding-top:12px;
+}
+.m-2-1 i{
+	width: 18px;
+	height: 18px;
+	float: left;
+	background: url(/waimai/Public/home/order/images/address_white.png);
+	cursor: pointer;
+}
+.m-2-1 i.active{
+	background: url(/waimai/Public/home/order/images/address_circle.png);
+}
+
+
+
+.m-2-1 span{
+	float: left;
+	margin-left: 5px;
+}
+.m-3{
+	width:520px;
+	height:50px;
+	margin-left:20px;
+	color:red;
+}
+.m-3-2{
+	width:80px;
+	height:49px;
+	line-height:49px;
+	float:left;
+	color:#333333;
+}
+.m-3-3{
+	width:420px;
+	height:49px;
+	border:1px solid #E4E4E4;
+	font-size:15px;
+	color:black;
+	letter-spacing:1px;
+	padding-left: 30px;
+}
+.m-4{
+	width:520px;
+	height:50px;
+	margin-left:20px;
+	color:red;
+	margin-top:20px;
+	position: relative;
+}
+.m-4-2{
+	width:80px;
+	height:49px;
+	line-height:49px;
+	float:left;
+	color:#333333;
+}
+.m-4-3{
+	width:420px;
+	height:49px;
+	border:1px solid #E4E4E4;
+	font-size:15px;
+	color:black;
+	letter-spacing:1px;
+	padding-left:30px;
+}
+.m-4-4{
+	margin-top:-33px;
+	margin-left:95px;
+	position: absolute;
+	top: 50px;
+	left: -1px;
+}
+
+.m-5{
+	width:520px;
+	height:50px;
+	margin-left:20px;
+	color:red;
+	margin-top:20px;
+}
+.m-5-2{
+	width:80px;
+	height:49px;
+	line-height:49px;
+	float:left;
+	color:#333333;
+}
+.m-5-3{
+	width:420px;
+	height:49px;
+	border:1px solid #E4E4E4;
+	font-size:15px;
+	color:black;
+	letter-spacing:1px;
+	padding-left: 30px;
+}
+.m-6{
+	width:520px;
+	height:60px;
+	margin-left:20px;
+	margin-top:20px;
+}
+.m-6-1{
+	width:120px;
+	height:40px;
+	background:#FF2D4B;
+	color:white;
+	float:left;
+	margin-top:10px;
+	margin-left:120px;
+	color:white;
+	font-size:16px;
+	border:0px;
+}
+.m-6-2{
+	width:120px;
+	height:40px;
+	background:#666666;
+	color:white;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	color:white;
+	font-size:16px;
+	border:0px;
+}

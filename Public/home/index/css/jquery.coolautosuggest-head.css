@@ -1,0 +1,76 @@
+/* Style For Suggestions */
+    
+/*
+ For creating side border like this
+ | item 1   |
+ | item 2   |
+ */
+ /*第一条CSS可以改自动完成样式      */ 
+
+ .suggestions{
+	overflow-y:scroll; 
+ 	margin-left: 10px; 
+} 
+.suggestions .suggest_item{
+	width:382px;
+	padding-bottom: 5px;
+	padding-top: 5px; 
+	background-color:white;
+	border-left:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	padding-left:5px;
+	color: black;
+	/*line-height:50px;*/
+	/*这里可以改自动完成文字居中位置*/
+}
+
+/*
+ For creating top border like this
+ ------------
+   item 1
+   ...
+ */
+.suggestions .suggest_item.first{
+	border-top:1px solid #CCCCCC;
+}
+
+/*
+ For creating bottom border like this
+   ...
+   item 2
+  ------------
+ */
+.suggestions .suggest_item.last{
+	border-bottom:1px solid #CCCCCC;
+}
+
+/*
+ For coloring the selected item
+ */
+.suggestions .suggest_item.selected, .suggestions .suggest_item.selected .description{
+	background-color:#F8F8F8;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+/*
+ Image thumbnail
+ */
+.suggestions .suggest_item .thumbnail{
+	background-color: transparent;
+	background-position: -110px -108px;
+	background-repeat: no-repeat;
+	margin: 1px 2px 1px 2px;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+/*
+ Description
+ */
+.suggestions .suggest_item .description{
+	font-style: italic;
+	font-size: 11px;
+	color: #777;
+}

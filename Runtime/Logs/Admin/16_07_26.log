@@ -1,0 +1,370 @@
+[ 2016-07-26T12:39:11+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+ERR: 非法操作:catDel
+
+[ 2016-07-26T12:39:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+ERR: 非法操作:catDel
+
+[ 2016-07-26T12:41:46+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 非法操作:catDel
+
+[ 2016-07-26T12:49:22+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001601s ]
+ERR: 非法操作:goodDel
+
+[ 2016-07-26T12:49:29+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T12:54:49+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T12:56:01+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T12:56:19+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+ERR: 非法操作:goodDel
+
+[ 2016-07-26T12:56:53+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:03:09+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:03:28+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+ERR: 非法操作:goodUpdate
+
+[ 2016-07-26T13:03:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004902s ]
+ERR: 非法操作:goodUpdate
+
+[ 2016-07-26T13:05:22+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+ERR: 非法操作:goodUpdate
+
+[ 2016-07-26T13:05:25+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:05:31+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+ERR: 非法操作:goodUpdate
+
+[ 2016-07-26T13:14:13+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0054s ]
+SQL: UPDATE `waimai_goods` SET `shop_id`='235',`good_name`='麦当劳我爱1001',`price`='23',`status`='1',`box`='10' WHERE `id` = 2 [ RunTime:0.0968s ]
+
+[ 2016-07-26T13:17:05+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 130 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0055s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 259 [ RunTime:0.1059s ]
+
+[ 2016-07-26T13:17:11+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0072s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 130 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0057s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 258 [ RunTime:0.0348s ]
+
+[ 2016-07-26T13:17:16+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0056s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 130 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0045s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 257 [ RunTime:0.0970s ]
+
+[ 2016-07-26T13:18:09+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T13:38:16+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0058s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0050s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0003s ]
+
+[ 2016-07-26T13:38:17+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0054s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:49+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0054s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:50+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0065s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0006s ]
+
+[ 2016-07-26T13:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0052s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0065s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0056s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0054s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0054s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0050s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0059s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:52+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0055s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:53+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001785s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0059s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0006s ]
+
+[ 2016-07-26T13:39:53+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0143s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0013s ]
+
+[ 2016-07-26T13:39:53+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0060s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0005s ]
+
+[ 2016-07-26T13:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0071s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0051s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0006s ]
+
+[ 2016-07-26T13:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0078s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0165s ]
+
+[ 2016-07-26T13:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0064s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0056s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0004s ]
+
+[ 2016-07-26T13:39:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 134 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0060s ]
+SQL: DELETE FROM `waimai_goods` WHERE `id` = 0 [ RunTime:0.0009s ]
+
+[ 2016-07-26T14:01:23+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+ERR: 非法操作:catDel
+
+[ 2016-07-26T14:07:39+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+ERR: 非法操作:catDel
+
+[ 2016-07-26T14:36:59+08:00 ] 127.0.0.1 /index.php/Admin/Shop/Announcement.html
+ERR: 非法操作:Announcement
+
+[ 2016-07-26T14:39:56+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `waimai_shop_cats` [ RunTime:0.0067s ]
+SQL: UPDATE `waimai_shop_cats` SET `cat_name`='热销菜品',`keyChar`='2' WHERE `id` = 1 [ RunTime:0.0660s ]
+
+[ 2016-07-26T14:51:30+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `waimai_shops` [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: admin E:\PHP\mywaimai\Admin\Controller\ShopController.class.php 第 95 行.
+SQL: SELECT * FROM `waimai_shops` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `waimai_shop_cats` [ RunTime:0.0040s ]
+SQL: DELETE FROM `waimai_shop_cats` WHERE `id` = 7 [ RunTime:0.1094s ]
+
+[ 2016-07-26T14:51:39+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SHOW COLUMNS FROM `waimai_shop_cats` [ RunTime:0.0055s ]
+SQL: UPDATE `waimai_shop_cats` SET `cat_name`='饮品类1',`keyChar`='3' WHERE `id` = 6 [ RunTime:0.0405s ]
+
+[ 2016-07-26T14:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Shop/catUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `waimai_shop_cats` [ RunTime:0.0055s ]
+SQL: UPDATE `waimai_shop_cats` SET `cat_name`='饮品类',`keyChar`='3' WHERE `id` = 6 [ RunTime:0.0878s ]
+
+[ 2016-07-26T15:08:04+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T15:08:18+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002133s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0050s ]
+SQL: UPDATE `waimai_goods` SET `shop_id`='563',`good_name`='鱿鱼汤泡饭',`price`='34.3',`status`='1',`box`='11' WHERE `id` = 55 [ RunTime:0.1286s ]
+
+[ 2016-07-26T15:17:39+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T15:18:42+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+
+[ 2016-07-26T15:18:48+08:00 ] 127.0.0.1 /index.php/Admin/Shop/goodUpdate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `waimai_goods` [ RunTime:0.0042s ]
+SQL: UPDATE `waimai_goods` SET `shop_id`='1',`good_name`='炸薯条',`price`='23',`status`='1',`box`='10' WHERE `id` = 7 [ RunTime:0.0871s ]
+
+[ 2016-07-26T15:18:55+08:00 ] 127.0.0.1 /index.php/Admin/Shop/
+ERR: 非法操作:index
+

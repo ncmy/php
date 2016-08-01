@@ -1,0 +1,386 @@
+home_order_detaildiv.__01 {
+	position:relative;
+	width:1261px;
+	margin:0px auto;
+}
+
+div.home-01_ {
+	position:relative;
+	float: left;
+	width:1261px;
+	height:50px;
+}
+
+div.home-02_ {
+	position:relative;
+	width:139px;
+	height: 1000px;
+	background: #fff;
+	float: left;
+}
+
+div.home-03_ {
+	position:relative;
+	float: left;
+	width:181px;
+	height: 1000px;
+	background: #FAFAFA
+}
+div.home-03_ >.top{
+	height: 60px;
+	width: 141px;
+	line-height: 60px;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 16.8px;
+	color:#333333;
+	border-bottom: 1px solid #E5E5E5;
+}
+div.home-03_ >.item{
+	height: 35px;
+	width: 141px;
+	line-height: 35px;
+	text-align: left;
+	margin-left: 20px;
+	font-size: 14.4px;
+	color:#333333;
+}
+div.home-03_ >.item a{
+	text-decoration: none;
+	color:#333333;
+}
+div.home-03_ >.item>.item_1{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/order_4da8746.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_2{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/address_f4107f9.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_3{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/favorite_c335607.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_4{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/coupon_14d20c5.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_5{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/left_0dc1e4c.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_6{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/refund_fbd537d.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+div.home-03_ >.item>.item_7{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/account_9272e08.png) no-repeat 2px 0px;
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+div.home-04_ {
+	position:relative;
+	float: left;
+	width:784px;
+	height:60px;
+	border-bottom: 1px solid #E5E5E5;
+	margin-left: 20px;
+}
+div.home-04_>.left{
+	float: left;
+	height: 60px;
+	width: 100px;
+	line-height: 60px;
+	font-size: 16.8px;
+	color:#333333;
+
+}
+div.home-04_>.right{
+	float: right;
+	height: 60px;
+	width: 200px;
+	line-height: 60px;
+	font-size: 13.2px;
+	color:#333333;
+	margin-right: 30px;
+}
+div.home-04_>.right>span{
+	display: block;
+	float: right;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+
+}
+
+div.home-05_ {
+	position:relative;
+	float: right;
+	width:137px;
+	height:1000px;
+	background: #fff;
+}
+
+div.home-06_ {
+	position:relative;
+	float: left;
+	width:804px;
+	height:37px;
+}
+
+div.home-07_ {
+	position:relative;
+	float: left;
+	width:780px;
+/* 	height:529px; */
+	border: 1px solid #E5E5E5;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+.home_order_detail{
+	position:relative;
+	float: left;
+	width:780px;
+	overflow: hidden;
+}
+div.home-07_ >.home_left{
+	width: 350px;
+	height: 529px;
+	float: left;
+	padding: 0px 20px;
+}
+div.home-07_ >.home_left>.top_1{
+	padding: 0px;
+	font-size: 16.8px;
+	float: left;
+	margin: 0px;
+	height: 50px;
+	width: 300px;
+	line-height: 50px;
+}
+div.home-07_ >.home_left>.top_2{
+	font-size: 12px;
+	padding-left:20px;
+	margin: 0px;
+	height: 18px;
+	line-height: 18px;
+	width: 300px;
+	background: url(/waimai/public/home/user/images/telphone_green.png) no-repeat;
+	float: left;
+}
+div.home-07_ >.home_left>.top_3{
+	font-size: 12px;
+	padding: 8px 0px;
+	padding-left:20px;
+	margin: 0px;
+	height: 18px;
+	line-height: 18px;
+	width: 300px;
+	background: url(/waimai/public/home/user/images/telphone_red.png) no-repeat 0px 8px;
+	float: left;
+	border-bottom: 1px solid #E5E5E5;
+}
+div.home-07_ >.home_left>.content{
+	width: 320px;
+	float: float: left;
+	border-bottom: 1px solid #E5E5E5;
+	overflow: hidden;
+}
+div.home-07_ >.home_left .good_list{
+	height: 38px;
+	line-height: 38px;
+	width: 300px;
+	float: left;
+	font-size: 14px;
+
+}
+div.home-07_ >.home_left .good_list>span{
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	width: 30px;
+	float: left;
+}
+div.home-07_ >.home_left .good_list>span:nth-child(1){
+	width: 200px;
+}
+div.home-07_ >.home_left .good_list>span:nth-child(3){
+	width: 70px;
+	text-align: right;
+}
+
+div.home-07_ >.home_left>.logistics{
+	padding: 0px;
+	margin:0px;
+	font-size: 14px;
+	color:#999;
+	height: 28px;
+	width: 300px;
+	line-height: 28px;
+	margin-top: 5px;
+}
+
+div.home-07_ >.home_left>.address{
+	padding: 0px;
+	margin:0px;
+	font-size: 14px;
+	color:#999;
+	width: 300px;
+	line-height: 28px;
+}
+
+
+div.home-07_ >.home_right{
+	width: 390px;
+/* 	height: 529px; */
+	 min-height: 529px; 
+	float: right;
+	background: #FAFAFA;
+	padding-bottom: 10px;
+}
+div.home-07_ >.home_right>.item{
+	width: 390px;
+	height: 90px;
+	float: right;
+	/* border: 1px solid blue; */
+}
+div.home-07_ >.home_right>.item>.right{
+	width: 300px;
+	height: 66px;
+	border: 1px solid #DDDDDD;
+	float: left;
+	margin-top: 22px;
+}
+
+/* 图标的样式 */
+div.home-07_ >.home_right>.item>.first{
+	width: 50px;
+	height: 90px;
+	float: left;
+	background: url(/waimai/public/home/user/images/item_first.png) no-repeat 0px 2px;
+}
+div.home-07_ >.home_right>.item>.middle{
+	width: 50px;
+	height: 90px;
+	float: left;
+	background: url(/waimai/public/home/user/images/item_middle.png) repeat-y ;
+}
+div.home-07_ >.home_right>.item>.last{
+	width: 50px;
+	height: 90px;
+	float: left;
+	background: url(/waimai/public/home/user/images/item_last.png) no-repeat 0px -1px;
+}
+div.home-07_ >.home_right>.item>.right>p:nth-child(1){
+	height: 28px;
+	font-size: 17px;
+	color:#333;
+	padding: 0px;
+	padding-top: 5px;
+	margin:0px;
+	line-height: 28px;
+	margin-left: 20px;
+}
+div.home-07_ >.home_right>.item>.right>p:nth-child(1)>span{
+	display: block;
+	float: right;
+	color:#999999;
+	font-size: 13px;
+	padding-right: 20px;
+}
+div.home-07_ >.home_right>.item>.right>p:nth-child(2){
+	height: 30px;
+	font-size: 13px;
+	color:#999999;
+	padding: 0px;
+	margin:0px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+div.home-07_ >.home_right>.bottom{
+	width: 310px;
+	height: 30px;
+	position: relative;
+	float: left;
+	text-align: center;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+div.home-07_ >.home_right>.bottom>a{
+	text-decoration: none;
+	color:white;
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: #FF2D4B;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 5px;
+
+}
+
+
+
+
+div.home-08_ {
+	position:relative;
+	float: left;
+	width:804px;
+	height:36px;
+}
+
+div.id2015-11-22-114714-09_ {
+	position:relative;
+	float: left;
+	width:804px;
+	height:1540px;
+}
+
+div.home-10_ {
+	position:relative;
+	width:100%;
+	height:220px;
+	margin:0px auto;
+	background: #FAFAFA;
+	float: left;
+	text-align: center;
+
+}

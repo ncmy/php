@@ -1,0 +1,596 @@
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	#head{
+	position: relative;
+	width: 100%;
+	height: 51px;
+	background: #FF2D4B;
+
+}
+ #head a{
+	text-decoration: none;
+	color:white;
+	font-size: 14px;
+}
+#head a:visited{
+	color:white;
+}
+#head a:active{
+	color:white;
+} 
+#head_middle{
+	position: relative;
+	margin: 0px auto;
+	height: 51px;
+	width: 1000px;
+	background: #FF2D4B;
+
+}
+/* 我的地址 */
+ #head_middle #head_location{
+	margin-top: 7px;
+	background: white;
+	width: 181px;
+	height: 35px;
+	float: left;
+	border:1px solid #ccc;
+	border-radius: 2px 0px 0px 2px;
+	line-height: 35px;
+	position: relative;
+	z-index: 999px;
+	border:none;
+
+}
+#head_middle #head_location i{
+	width:14px;
+	height:17px;
+	background: url(/waimai/Public/home/index/images/address_f4107f9.png) no-repeat;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#head_middle #head_location input{
+	width: 120px;
+	height:33px;
+	float: left;
+	margin-left: 10px;
+	outline: none;
+	margin-top: 0px;
+	border-style: none;
+	border-left: 1px solid #CCCCCC;
+	padding: none;
+	padding-left: 5px;
+
+
+} 
+#head_middle  #detail{
+	margin-top: 7px;
+	background: white;
+	width: 181px;
+	height: 35px;
+	float: left;
+	border:1px solid #ccc;
+	border-radius: 2px 0px 0px 2px;
+	line-height: 35px;
+	position: relative;
+	z-index: 999px;
+	border:none;
+}
+#head_middle  #detail .address{
+	width: 118px;
+	height:37px;
+	padding: 0px;
+	background: red;
+}
+#head_middle #detail div{
+	width:39px;
+	height:27px;
+	display: block;
+	float: left;
+	margin-top: 4px;
+	/*margin-left: 10px;
+	margin-right: 5px; */
+	background: #FFFFFF;
+	font-size: 12px;
+	line-height: 27px;
+	text-align: center;
+}
+#head_middle #detail input{
+	width: 115px;
+	height:35px;
+	float: left;
+	/* margin-left: 10px; */
+	outline: none;
+	padding: 0px;
+	border-style: none;
+	border-left: 1px solid #CCCCCC;
+	padding-left: 5px;
+	/* font-size: 10px; */
+}
+/* 弹出的容器 */
+#head_middle .detail_container{
+/* 	width:322px;
+background:#F1F3F5;
+position: absolute;
+left: 198px;
+top: 43px;
+display: none;
+z-index: 999;
+border-radius: 0px 0px 2px 2px;
+ box-shadow: 1px 1px 1px #E7E7E7,-1px 1px 1px #E7E7E7;  */
+}
+#head_middle .location_address{
+	width:322px;
+	background:#F1F3F5;
+	position: absolute;
+	left: 198px;
+	top: 43px;
+	display: none;
+	z-index: 999;
+	border-radius: 0px 0px 2px 2px;
+	 box-shadow: 1px 1px 1px #E7E7E7,-1px 1px 1px #E7E7E7; 
+}
+#head_middle .detail_container .top{
+	height: 40px;
+	width: 282px;
+	background: #F1F3F5;
+	font-size: 14px;
+	color:#333333;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+
+}
+#head_middle .detail_container .address{
+	/* height: 100px; */
+	width: 322px;
+	background: #FFFFFF;
+/* 	min-height: 215px;
+max-height: 215px; */
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#head_middle .detail_container .address .item{
+	height: 40px;
+	width: 300px;
+	background: #FFFFFF;
+	color:#666666;
+	font-size: 12px;
+	line-height: 40px;	
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 0px;
+	padding-left: 40px;
+	cursor: pointer;
+}
+#head_middle .detail_container .address .item p:nth-child(1){
+	height: 20px;
+	width: 300px;
+	line-height: 20px;
+	padding: 0px;
+	margin: 0px;
+	color:#666666;
+}
+#head_middle .detail_container .address .item p:nth-child(2){
+	height: 20px;
+	width: 260px;
+	line-height: 20px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 14px;
+	color:#333333;
+}
+#head_middle .detail_container .bottom{
+	height: 40px;
+	width: 282px;
+	background: #F1F3F5;
+	font-size: 14px;
+	color:#333333;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+}
+#head_middle .detail_container .history{
+
+	width: 282px;
+	background: #FFFFFF;
+	font-size: 14px;
+	color:#333333;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 40px;
+	min-height: 40px;
+}
+#head_middle .detail_container .history .item{
+	width: 282px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color:#333333;
+	cursor: pointer;
+
+}
+#head_middle .detail_container .clear{
+	height: 40px;
+	width: 322px;
+	background: #F8F8F8;
+	font-size: 12px;
+	color:#333333;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+/* 前台弹出框结束 */
+#head_middle #head_search i{
+	width:14px;
+	height:17px;
+	background: url(/waimai/Public/home/index/images/detail/search_icon_else_9fb9111.png) no-repeat;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#head_middle #head_search{
+	margin-top: 7px;/* 181    7*/
+	background: white;
+	width: 181px;
+	height: 35px;
+	float: left;
+	border-left: 1px solid #ccc;
+	border-radius: 0px 2px 2px 0px;
+} 
+
+#head_middle #head_search input{
+	width: 120px;
+	height:25px;
+	float: left;
+	margin-left: 10px;
+	outline: none;
+	margin-top: 4px;
+	border-style: none;
+}
+#id2015-11-03-222139-02_ {
+	position:relative;
+	float:left;
+	width:144px;
+	height:51px;
+}
+
+#id2015-11-03-222139-03_ {
+	position:relative;
+	float:left;
+	width:14px;
+	height:51px;
+	background: #FF2D4B;
+}
+
+/* #id2015-11-03-222139-04_ {
+	position:relative;
+	float:left;
+	width:368px;
+	height:51px;
+} */
+
+#id2015-11-03-222139-05_ {
+	position:relative;
+	width:10px;
+	height:51px;
+	background: #FF2D4B;
+	float: left;
+}
+
+#id2015-11-03-222139-06_ {
+	position:relative;
+	width:50px;
+	height:51px;
+	float: left;
+}
+#id2015-11-03-222139-06_>a{
+	line-height: 51px;
+	background: #FF2D4B;
+	width:50px;
+	display: block;
+	text-align: center;
+	color:white;
+	background: #FF2D4B;
+
+}
+
+#id2015-11-03-222139-07_ {
+	position:relative;
+	width:18px;
+	height:51px;
+	background: #FF2D4B;
+	float: left;
+}
+
+#id2015-11-03-222139-08_ {
+	position:relative;
+
+	width:70px;
+	height:51px;
+	float: left;
+}
+#id2015-11-03-222139-08_ a{
+	line-height: 51px;
+	background: #FF2D4B;
+	width:70px;
+	display: block;
+	text-align: center;
+	color:white;
+	background: #FF2D4B;
+}
+#id2015-11-03-222139-09_ {
+	position:relative;
+	width:19px;
+	height:51px;
+	background: #FF2D4B;
+	float: left;
+}
+
+#id2015-11-03-222139-10_ {
+	position:relative;
+	width:72px;
+	height:51px;
+	float: left;
+}
+#id2015-11-03-222139-10_ a{
+	line-height: 51px;
+	background: #FF2D4B;
+	width:70px;
+	display: block;
+	text-align: center;
+	color:white;
+	background: #FF2D4B;
+}
+
+#id2015-11-03-222139-11_ {
+	position:relative;
+	width:12px;
+	height:51px;
+	background: #FF2D4B;
+	float: left;
+}
+
+#id2015-11-03-222139-12_ {
+	position:relative;
+	width:159px;
+	height:51px;
+	float: left;
+}
+#id2015-11-03-222139-12_ a{
+	line-height: 51px;
+	background: #FF2D4B;
+	width:63px;
+	display: block;
+	text-align: center;
+	color:white;
+	background: #FF2D4B;
+	float: left;
+}
+
+#home_center{
+	line-height: 39px;
+	background: #FF2D4B;
+	width:63px;
+	display: block;
+	text-align: center;
+	color:white;
+	background: #FF2D4B;
+	float: left;
+}
+
+/* 搜索商品或商铺 */
+.shop_good{
+	width:310px;
+	background:#F1F3F5;
+	position: absolute;
+	left: 340px;
+	top: 43px;
+	overflow-x:hidden;
+	z-index: 999;
+	border-radius: 0px 0px 2px 2px;
+	box-shadow: 1px 1px 1px #E7E7E7,-1px 1px 1px #E7E7E7; 
+	display: none;
+}
+#head_middle .shop_good .shop_top{
+	height: 40px;
+	width: 210px;
+	background: #F1F3F5;
+	font-size: 14px;
+	color:#333333;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 40px;
+
+}
+/* 商铺搜索结果　 */
+#head_middle .shop_good .address_search{
+
+	width: 310px;
+	background: #FFFFFF;
+
+
+	overflow-x:hidden;
+}
+
+#head_middle .shop_good .address_search .item{
+	height: 20px;
+	width: 300px;
+	background: #FFFFFF;
+	color:#666666;
+	font-size: 12px;
+	line-height: 40px;	
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 0px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+#head_middle .shop_good .address_search .item p:nth-child(1){
+	height: 20px;
+	width: 300px;
+	line-height: 20px;
+	padding: 0px;
+	margin: 0px;
+	color:#666666;
+}
+/* #head_middle .shop_good .address_search .item p:nth-child(2){
+	height: 20px;
+	width: 260px;
+	line-height: 20px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	color:#333333;
+} */
+#head_middle .shop_good .history_search{
+	width: 310px;
+	background: #FFFFFF;
+	font-size: 14px;
+	color:#333333;
+	line-height: 40px;
+	text-align: left;
+	padding-left: 0px;
+	min-height: 40px;
+}
+#head_middle .shop_good .history_search .item_search{
+	width: 310px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color:#333333;
+	cursor: pointer;
+	border-bottom: 1px solid #EEEEEE;
+	padding-left: 20px;
+
+}
+
+
+
+/* 用户中心 */
+#user_center{
+	width: 120px;
+	height: 258px;
+	position: absolute;
+	left: 799px;
+	top:42px;
+	z-index: 999;
+	color:#FAFAFA;
+	box-shadow: 1px 2px 2px #CCCCCC;
+	display: none;
+
+}
+
+#user_center a{
+	
+}
+
+div.home-center{
+	position:relative;
+	float: left;
+	width:120px;
+	height: 258px;
+	background: #fff;
+}
+div.home-center >.top{
+	background: url(/waimai/public/home/user/images/arrow.png) no-repeat 0px 0px;
+	height: 10px;
+	width: 120px;
+	background-size:100%;
+
+}
+div.home-center >.item{
+	height: 35px;
+	width: 100px;
+	line-height: 35px;
+	text-align: left;
+	margin-left: 10px;
+	font-size: 14.4px;
+	color:#333333;
+	border-bottom: 1px solid #EBEBEB;
+}
+div.home-center >.item a{
+	text-decoration: none;
+	color:#333333;
+}
+div.home-center >.item>.item_1{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/order_4da8746.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center >.item>.item_2{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/address_f4107f9.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center >.item>.item_3{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/favorite_c335607.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center >.item>.item_4{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/coupon_14d20c5.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center >.item>.item_5{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/left_0dc1e4c.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center >.item>.item_6{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/refund_fbd537d.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center>.item>.item_7{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/account_9272e08.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}
+div.home-center>.item>.item_8{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	background: url(/waimai/public/home/user/images/logout.png) no-repeat 2px 0px;
+	margin-top: 8px;
+margin-right: 10px;
+}

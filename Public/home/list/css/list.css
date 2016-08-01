@@ -1,0 +1,426 @@
+
+.l_container{
+	margin: 0;
+	padding: 0;
+}
+
+.l_main{
+	margin-top: 5px;
+	width: 100%;
+	height: 1000px;
+	border: 1px solid red;
+}
+
+.clearfix{
+	clear: both;
+}
+.l_carousel{
+	margin: 0px auto;
+	width: 980px;
+	height: 64px;
+}
+
+.l_carousel img{
+	width: 100%;
+}
+
+.l_cate{
+	margin: 2px auto;
+	width: 980px;
+	height: 40px;
+	position: relative;
+
+	background-color: #FFFFFF;
+}
+
+.l_cate ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.l_cate ul li{
+	float: left;
+	cursor: pointer;
+	padding: 12px 14px;
+	text-align: center;
+	display: block;
+	height: 24px;
+	width: 85px; 
+	line-height: 24px;
+	font-size: 17px;
+	color: #555;
+}
+
+.l_cate ul li:hover{
+	color:red;
+}
+
+.l_acrossline{
+	position: absolute;
+	margin-top: 40px;
+	width: 100%;
+	height: 2px;
+	background-color: #F4F4F4;
+}
+
+
+
+.l_catepanel{
+	margin: 0px auto;
+	padding-top:5px;
+	width: 980px;
+	height: 95px;
+	background-color: #FAFAFA;
+}
+
+.l_catelist{
+	margin: 10px auto;
+	padding: 0;	
+	width: 950px;
+	height: 68px;
+	position: static;
+	
+}
+
+.l_catebox{
+	float: left;
+	padding: 8px 0px;
+	margin: 0px 2px;
+	width: 112px;
+	height: 18px;
+	display: block;
+	cursor: pointer;
+}
+
+.l_catebox:hover .l_catename{
+	color:red;
+}
+
+.l_cateimg{
+	width: 18px;
+	height: 18px;
+	position: relative;
+	float: left;
+	background: url(/waimai/Public/home/list/pictures/0.png) no-repeat;
+}
+/* 
+导航条的图标 */
+ .png_1{
+	background: url(/waimai/Public/home/list/pictures/1.png) no-repeat;
+}
+.png_2{
+	background: url(/waimai/Public/home/list/pictures/2.png) no-repeat;
+} 
+.png_3{
+	background: url(/waimai/Public/home/list/pictures/3.png) no-repeat;
+} 
+.png_4{
+	background: url(/waimai/Public/home/list/pictures/4.png) no-repeat;
+} 
+.png_5{
+	background: url(/waimai/Public/home/list/pictures/5.png) no-repeat;
+} 
+.png_6{
+	background: url(/waimai/Public/home/list/pictures/6.png) no-repeat;
+} 
+.png_7{
+	background: url(/waimai/Public/home/list/pictures/7.png) no-repeat;
+} 
+.png_8{
+	background: url(/waimai/Public/home/list/pictures/8.png) no-repeat;
+} 
+.png_9{
+	background: url(/waimai/Public/home/list/pictures/9.png) no-repeat;
+} 
+.png_10{
+	background: url(/waimai/Public/home/list/pictures/10.png) no-repeat;
+} 
+.png_11{
+	background: url(/waimai/Public/home/list/pictures/11.png) no-repeat;
+} 
+.png_12{
+	background: url(/waimai/Public/home/list/pictures/12.png) no-repeat;
+} 
+
+
+.l_catename{
+	line-height: 20px;
+	font-size: 14px;
+	width: 85px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	color:#333333;
+	float: right;
+}
+
+
+.l_catebottom{
+
+	width: 980px;
+	height: 40px;
+	position: relative;/* 这是以前的绝对定位 */
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px solid #E4E4E4;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	z-index: 500;
+}
+
+.l_cateboxleftul{
+
+	padding: 0;
+	margin: 0;
+	width: 480px;
+	height: 40px;
+	float: left;
+}
+
+.l_cateboxleftli{
+	display: block;
+	height: 40px;
+	width: 80px;
+	line-height: 40px;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+.l_cateboxright{
+
+	float: right;
+	width: 350px;
+	background: #FFFFFF;
+	border:1px solid #E4E4E4;
+	border-top: none;
+	overflow: hidden;
+	position: absolute; 
+	left: 629px;
+	 height: 40px; 
+}
+
+.l_cateboxrightul{
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 420px;
+	height: 40px;
+	position: relative;
+	overflow: hidden;
+}
+
+.l_cateboxright_show{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 420px;
+	height: 130px;
+	position: absolute;
+	z-index: 999;
+	
+}
+
+.l_cateboxrightli{
+	float: left;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	padding-left: 10px;
+	cursor: pointer;
+	
+}
+.l_cateboxrightli i{
+	background: url(/waimai/waimai/Public/home/list/pictures/checkbox.png) no-repeat -45px -63px;
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	margin-top: 12px;
+}
+.l_cateboxrightli span{
+	color:#333;
+
+
+
+}
+
+.arrow{
+	padding-top: 16px;
+	position: relative;
+}
+
+.arrow_transform{
+	
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg);
+	position: absolute;	
+	padding-bottom: 16px;
+}
+
+
+
+.l_lists{
+	margin: 10px auto;
+	width: 980px;
+}
+
+/* 商品开始CSS */
+.l_listsbox{
+	cursor: pointer;
+	width: 226px;
+	height: 264px;
+	/*border: 5px solid red;*/
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background: #FAFAFA;
+	margin-right: 24px;
+}
+
+.list_box_right{
+	margin-right: 0px;
+}
+
+
+.l_listsimg{
+	width: 228px;
+	height: 140px;
+	text-align: center;
+}
+
+.l_listsname{
+	width: 228px;
+	height: 30px;
+	color: #333333;
+}
+.l_listsname_title{
+	height: 28px;
+	line-height: 28px;
+	color: #333333;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.l_listssell{
+	width: 228px;
+	height: 26px;
+	color: #333333;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.l_listscomment{
+	padding: 4px;
+	width: 100px;
+	height: 18px;
+	font-size: 12px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+}
+
+.l_listssellnum{
+	padding: 4px;
+	width: 100px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	float: right;
+	color: #333333;
+	padding-left: 10px;
+}
+
+	
+.l_listsdistance{
+	width: 228px;
+	height: 25px;
+	font-size: 12px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+}
+
+.l_listspay{
+	width: 228px;
+	height: 25px;
+	float: left;
+	color: #333333;
+	padding-left: 10px;
+
+}
+
+
+
+/* 
+商品结束css */
+.arrow_left{
+	position: relative;
+	padding-top: 18px;
+	float: right;
+}
+
+.l_listscon{
+
+	width: 242px;
+	height: 300px;
+	border:5px solid blue;
+	position: absolute;
+	top: 0px;
+	left: 242px;
+	z-index: 999;
+	display: none;
+}
+
+
+
+.l_listsconbox{
+	margin: 0;
+	padding: 0;
+}
+
+.l_listsboxtitle{
+	width: 242px;
+	height: 40px;
+	border:1px solid black;
+}
+
+.divide{
+	width: 80%;
+	border: 2px solid red;
+}
+
+.l_listsboxcontent{
+	width: 242px;
+	height: 80px;
+	border:1px solid black;
+}
+
+.l_listsboxnotices{
+	width: 242px;
+	height: 80px;
+	border:1px solid black;
+}
+
+#list-footer{
+	width:100%;
+	height: 43px;
+	margin:0px auto; 
+	position: relative;
+	text-align: center;
+}
+
+/* 以下为换灯片CSS */
+.l_carousel ul{list-style: none;float: right;position: absolute;top:30px;left: 870px;}
+.l_carousel ul li{width: 10px;height: 10px;line-height: 20px;text-align:center;background: white;float:left;margin:1px;border-radius: 5px;}
